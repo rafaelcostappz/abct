@@ -1,4 +1,9 @@
 
+![Linguagem](https://img.shields.io/badge/Language-Python-blue)
+![Linguagem](https://img.shields.io/badge/Language-JavaScript-yellow)
+![Linguagem](https://img.shields.io/badge/Language-Go-00ADD8)
+
+
 # AbacatePay SDK Standards
 
  **Na AbacatePay, o open source não é apenas uma escolha técnica — é parte do nosso DNA.**  
