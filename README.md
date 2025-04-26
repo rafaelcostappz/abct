@@ -1,11 +1,6 @@
 
 <p align="center">
   <img src="https://github.com/rafaelcostappz/abct/blob/main/assets/sdknode.png?raw=true" alt="AbacatePay SDK" width="250">
-  <br>
-</p>
-
-<p align="center">
-  <img src="https://github.com/rafaelcostappz/abct/blob/main/assets/sdknode.png?raw=true" alt="AbacatePay SDK" width="250">
   <br><br>
   <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white" alt="Java">
@@ -16,12 +11,9 @@
 </p>
 
 
-
+---
 
 # AbacatePay SDK Standards
-
-
-
 
 
 **Na AbacatePay, o open source não é apenas uma escolha técnica — é parte do nosso DNA.**  
