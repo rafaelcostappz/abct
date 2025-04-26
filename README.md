@@ -11,8 +11,6 @@
 </p>
 
 
----
-
 # AbacatePay SDK Standards
 
 
