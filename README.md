@@ -1,6 +1,17 @@
 
 # AbacatePay SDK Standards
 
+
+**Na AbacatePay, o open source não é apenas uma escolha técnica — é parte do nosso DNA.**  
+Acreditamos que a inovação real nasce da colaboração aberta, transparente e acessível para todos. Este repositório simboliza nosso compromisso em construir, junto à comunidade, soluções robustas, seguras e de alta qualidade.
+
+> **Você é Contribuidor ou Mantenedor?**
+>
+> - [Guia de Contribuição](./contributors/CONTRIBUTING.md)
+> - [Guia de Mantenedores](./maintainers/MAINTENANCE.md)
+
+Repositório oficial de padrões, templates e guidelines para o desenvolvimento e manutenção dos SDKs da AbacatePay em múltiplas linguagens.
+
 ---
 
 <p align="center">
@@ -16,18 +27,6 @@
   <b>SDKs Oficiais</b>
 </p>
 
-
----
-
-**Na AbacatePay, o open source não é apenas uma escolha técnica — é parte do nosso DNA.**  
-Acreditamos que a inovação real nasce da colaboração aberta, transparente e acessível para todos. Este repositório simboliza nosso compromisso em construir, junto à comunidade, soluções robustas, seguras e de alta qualidade.
-
-> **Você é Contribuidor ou Mantenedor?**
->
-> - [Guia de Contribuição](./contributors/CONTRIBUTING.md)
-> - [Guia de Mantenedores](./maintainers/MAINTENANCE.md)
-
-Repositório oficial de padrões, templates e guidelines para o desenvolvimento e manutenção dos SDKs da AbacatePay em múltiplas linguagens.
 
 ---
 
