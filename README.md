@@ -1,11 +1,12 @@
 # AbacatePay SDK Standards
 
-![Go](https://img.shields.io/badge/Language-Go-00ADD8)
-![Java](https://img.shields.io/badge/Language-Java-007396)
-![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6)
-![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF)
-![Ruby](https://img.shields.io/badge/Language-Ruby-CC342D)
-![PHP](https://img.shields.io/badge/Language-PHP-777BB4)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?logo=ruby&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
+
 
 **Na AbacatePay, o open source não é apenas uma escolha técnica — é parte do nosso DNA.**  
 Acreditamos que a inovação real nasce da colaboração aberta, transparente e acessível para todos. Este repositório simboliza nosso compromisso em construir, junto à comunidade, soluções robustas, seguras e de alta qualidade.
