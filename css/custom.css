@@ -1,0 +1,29 @@
+/* Fixar o degradê da coverpage */
+section.cover {
+  background: linear-gradient(135deg, #c1ffb0, #fdfde3) !important;
+}
+
+
+  /* Remover qualquer background-color padrão */
+  section.cover::before {
+    background: none !important;
+  }
+  
+
+  .title {
+    font-size: 17px;
+    font-weight: 1600;
+    color: #2D2D2D;
+    text-align: center;
+    line-height: 1.1;
+
+  }
+  
+  .title .gradient {
+    background: linear-gradient(90deg, #42d392, #4765fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  
