@@ -2,6 +2,17 @@
 # AbacatePay SDK Standards
 
 
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" width="30" style="margin: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="30" style="margin: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" style="margin: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="30" style="margin: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="Ruby" width="30" style="margin: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="30" style="margin: 10px;">
+</p>
+
+
+
 **Na AbacatePay, o open source não é apenas uma escolha técnica — é parte do nosso DNA.**  
 Acreditamos que a inovação real nasce da colaboração aberta, transparente e acessível para todos. Este repositório simboliza nosso compromisso em construir, junto à comunidade, soluções robustas, seguras e de alta qualidade.
 
@@ -14,21 +25,6 @@ Repositório oficial de padrões, templates e guidelines para o desenvolvimento 
 
 ---
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" width="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="Ruby" width="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="50" style="margin: 10px;">
-</p>
-
-<p align="center">
-  <b>SDKs Oficiais</b>
-</p>
-
-
----
 
 ## Por que Open Source?
 
