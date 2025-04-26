@@ -1,14 +1,14 @@
-
-![Linguagem](https://img.shields.io/badge/Language-Python-blue)
-![Linguagem](https://img.shields.io/badge/Language-JavaScript-yellow)
-![Linguagem](https://img.shields.io/badge/Language-Go-00ADD8)
-
-
 # AbacatePay SDK Standards
 
- **Na AbacatePay, o open source não é apenas uma escolha técnica — é parte do nosso DNA.**  
-Acreditamos que a inovação real nasce da colaboração aberta, transparente e acessível para todos. Este repositório simboliza nosso compromisso em construir, junto à comunidade, soluções robustas, seguras e de alta qualidade.
+![Go](https://img.shields.io/badge/Language-Go-00ADD8)
+![Java](https://img.shields.io/badge/Language-Java-007396)
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6)
+![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF)
+![Ruby](https://img.shields.io/badge/Language-Ruby-CC342D)
+![PHP](https://img.shields.io/badge/Language-PHP-777BB4)
 
+**Na AbacatePay, o open source não é apenas uma escolha técnica — é parte do nosso DNA.**  
+Acreditamos que a inovação real nasce da colaboração aberta, transparente e acessível para todos. Este repositório simboliza nosso compromisso em construir, junto à comunidade, soluções robustas, seguras e de alta qualidade.
 
 > **Você é Contribuidor ou Mantenedor?**
 >
@@ -70,4 +70,3 @@ Cada PR, cada Issue e cada sugestão ajudam a tornar nossos SDKs melhores — n�
 ## Licença
 
 Distribuído sob a [MIT License](./LICENSE.md).
-
