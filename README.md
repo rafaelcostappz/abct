@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/rafaelcostappz/abacatepay-default-sdk/blob/main/assets/sdknodejs.png?raw=true" alt="AbacatePay SDK" width="250">
+  <img src="https://github.com/rafaelcostappz/abacatepay-default-sdk/blob/main/assets/sdknode.png?raw=true" alt="AbacatePay SDK" width="250">
   <br>
 </p>
 
