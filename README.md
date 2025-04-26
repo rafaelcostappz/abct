@@ -32,6 +32,23 @@ Se você está aqui, você faz parte disso.
 
 ---
 
+---
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" width="50" style="margin: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" style="margin: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" style="margin: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="50" style="margin: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="Ruby" width="50" style="margin: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="50" style="margin: 10px;">
+</p>
+
+<p align="center">
+  <b>SDKs oficiais em múltiplas linguagens</b>
+</p>
+
+---
+
 ## Propósito
 
 - Unificar [padrões de desenvolvimento](./contributors/CODING_STANDARDS.md).
