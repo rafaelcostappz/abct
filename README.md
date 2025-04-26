@@ -1,6 +1,10 @@
 
-# AbacatePay SDK Standards
+<p align="center">
+  <img src="https://github.com/rafaelcostappz/abacatepay-default-sdk/blob/main/assets/sdknodejs.png?raw=true" alt="AbacatePay SDK" width="250">
+  <br>
+</p>
 
+<p align="center">
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
@@ -8,6 +12,15 @@
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?logo=ruby&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
+
+</p>
+
+
+
+# AbacatePay SDK Standards
+
+
+
 
 
 **Na AbacatePay, o open source não é apenas uma escolha técnica — é parte do nosso DNA.**  
