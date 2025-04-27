@@ -24,7 +24,7 @@ Essas regras são válidas para todos os SDKs, independentemente da linguagem.
 
 ## Linguagens Suportadas
 
- - [Node.js](languages/nodejs/README.md)
+ - [Node.js](languages/nodejs/CONTRIBUTING.md)
  - [Python](languages/python/README.md)
  - [Go](languages/go/README.md)
  - [Java](languages/java/README.md)

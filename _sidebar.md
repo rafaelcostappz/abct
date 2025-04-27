@@ -14,13 +14,7 @@
 
 * **Linguagens**
   * [Visão Geral](languages/README.md)
-  * [Node.js](languages/nodejs/README.md)
-  * [Python](languages/python/README.md)
-  * [Go](languages/go/README.md)
-  * [Java](languages/java/README.md)
-  * [Kotlin](languages/kotlin/README.md)
-  * [PHP](languages/php/README.md)
-  * [Ruby](languages/ruby/README.md)
+
 
 * **Mantenedores**
   * [Guia de Manutenção](maintainers/MAINTENANCE.md)
