@@ -16,14 +16,6 @@ Embora tenhamos o compromisso de garantir a qualidade e evolução contínua, é
 - Análise de sugestões e melhorias propostas pela comunidade.
 - Manutenção da compatibilidade com APIs da AbacatePay.
 
-### 🚫 O que não oferecemos
-
-- Suporte técnico personalizado ou dedicado.
-- Consultoria para integrações específicas em projetos privados.
-- Garantia de prazos fixos para novas funcionalidades.
-- Adaptações fora do escopo dos SDKs oficiais.
-- Suporte via canais privados (salvo casos de segurança).
-
 ---
 
 ## Canais Oficiais de Suporte
