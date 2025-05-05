@@ -8,7 +8,7 @@
 
 ## Issue Relacionada
 
-Closes #[SUBISTITUA ESSE TEXTO PELO NUMERO DA ISSUE]
+Closes #`SUBISTITUA ESSE TEXTO PELO NUMERO DA ISSUE
 
 (Substitua pelo número da Issue, ex: `Closes #42`)
 
