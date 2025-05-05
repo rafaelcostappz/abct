@@ -1,3 +1,4 @@
+
 # Fluxo de Desenvolvimento - AbacatePay SDKs
 
 > **Este documento define o fluxo oficial de desenvolvimento para todos os SDKs open source da AbacatePay.**
