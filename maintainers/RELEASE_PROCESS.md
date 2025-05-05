@@ -1,77 +1,60 @@
-
 # Processo de Release - AbacatePay SDKs
 
-> Este documento define o fluxo oficial para criação e publicação de novas versões dos SDKs open source da AbacatePay.
+Este documento define o fluxo oficial para criação e publicação de novas versões dos SDKs open source da AbacatePay.
 
-Seguir este processo garante que todas as releases sejam consistentes, auditáveis e alinhadas com as práticas de versionamento adotadas.
+> Este processo é compartilhado entre todos os SDKs e ajustado para contemplar diferentes linguagens e ferramentas (Node.js, Go, Python etc.).
+
+Seguir este fluxo garante que todas as releases sejam consistentes, auditáveis e alinhadas com as práticas modernas de versionamento.
 
 ---
 
 ## Pré-Requisitos para um Release
 
-Antes de gerar uma nova versão, assegure-se de que:
+Antes de iniciar um ciclo de release, verifique se:
 
-- Todos os Pull Requests relacionados foram revisados e aprovados.
-- O pipeline de **CI/CD** está 100% verde.
-- O [CHANGELOG.md](../CHANGELOG.md) foi atualizado com as mudanças relevantes.
-- A versão está de acordo com a [Política de Versionamento](/maintainers/VERSIONING.md).
+- Todos os Pull Requests relevantes foram revisados e aprovados.
+- O pipeline de CI/CD na branch `develop` está 100% verde.
+- O `CHANGELOG.md` foi atualizado (automaticamente via Changesets ou manualmente, dependendo do SDK).
+- A versão segue a [Política de Versionamento](/maintainers/VERSIONING.md).
 - Não há Issues críticas abertas relacionadas à release.
 
 ---
 
 ## Tipos de Releases
 
-- **Patch** (`x.y.Z`): Correções de bugs sem alteração de comportamento.
-- **Minor** (`x.Y.z`): Novas funcionalidades compatíveis com versões anteriores.
-- **Major** (`X.y.z`): Mudanças que quebram compatibilidade. Exigem RFC aprovada e comunicação ampla.
+- **Patch (x.y.Z):** Correções de bugs sem alteração de comportamento.
+- **Minor (x.Y.z):** Novas funcionalidades compatíveis com versões anteriores.
+- **Major (X.y.z):** Mudanças que quebram compatibilidade. Exigem aprovação de RFC e comunicação prévia.
 
-Hotfixes devem seguir o fluxo de **patch release**, priorizando a correção imediata.
+> Hotfixes devem seguir o fluxo de release de patch, priorizando a correção imediata.
 
 ---
 
 ## Fluxo de Release
 
-1. **Branch de Release**  
-   Crie uma branch a partir da `main`:
-   ```
-   git checkout -b release/x.y.z
-   ```
-
-2. **Atualize o Changelog e a Versão**  
-   Ajuste o `CHANGELOG.md` e arquivos de versionamento conforme o SDK.
-
-3. **Crie a Tag**  
-   Após merge na `main`, crie a tag semântica:
-   ```
-   git tag -a vX.Y.Z -m "Release vX.Y.Z"
-   git push origin vX.Y.Z
-   ```
-
-4. **Disparo do Pipeline de Release**  
-   A publicação será feita automaticamente via **GitHub Actions**.
-
-5. **Confirmação e Comunicação**  
-   - Verifique a publicação (ex: NPM, PyPI, etc.).
-   - Documente a release na aba de **Releases** do GitHub.
-   - Caso aplicável, comunique a comunidade sobre mudanças importantes.
+1. Garanta que `develop` esteja atualizado com os PRs finalizados.
+2. Faça o merge de `develop` na branch `main`.
+3. O pipeline de release será automaticamente disparado pelo GitHub Actions.
+4. A publicação será feita no registro apropriado (npm, PyPI, etc.).
+5. A tag semântica (`vX.Y.Z`) será criada automaticamente (quando configurado).
+6. Finalize o preenchimento da aba **Releases** no GitHub com o changelog da versão.
 
 ---
 
 ## Automação
 
-- Sempre que possível, utilize ferramentas como:
-  - **Changesets** (para SDKs que suportam)
-  - Scripts de release integrados no pipeline.
+O processo de release pode variar entre SDKs. Verifique os arquivos de configuração no repositório.
 
-Consulte a configuração específica no repositório de cada SDK.
+- **Node.js**: Utiliza [Changesets](https://github.com/changesets/changesets) para versionamento e changelog automático. O release ocorre após o merge na `main`.
+- **Go / Python / Outros**: Utilizam tags manuais ou scripts no CI. Consulte `Makefile`, `setup.py`, ou `.github/workflows/release.yml` conforme o caso.
 
 ---
 
-## Considerações Finais
+## Segurança e Rollback
 
-- Releases devem ser realizadas por mantenedores autorizados.
-- Evite lançamentos fora do fluxo descrito.
-- Em caso de erro crítico, siga o protocolo de **rollback** documentado no CI.
+- Releases devem ser executadas apenas por mantenedores autorizados.
+- Em caso de erro crítico, siga o protocolo de rollback descrito no CI e na [Política de Segurança](/policies/SECURITY_POLICY.md).
+- Nunca publique diretamente fora do fluxo de `develop → main`.
 
 ---
 

@@ -83,3 +83,4 @@ Caso tenha dúvidas sobre o processo ou queira discutir uma ideia, abra uma Issu
 Os mantenedores estão disponíveis para orientar e garantir que sua contribuição agregue da melhor forma possível.
 
 Agradecemos por colaborar com o ecossistema **open source** da AbacatePay.
+

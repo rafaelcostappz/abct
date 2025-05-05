@@ -1,7 +1,8 @@
-
 # Fluxo de Desenvolvimento - AbacatePay SDKs
 
-> **Este documento define o fluxo oficial de desenvolvimento para todos os SDKs open source da AbacatePay.**
+> Este documento define o fluxo oficial de desenvolvimento para **todos os SDKs open source da AbacatePay**, independentemente da linguagem.
+
+Cada SDK pode possuir diretrizes específicas (como ferramentas de teste ou lint), mas o fluxo abaixo é comum a todos os projetos.
 
 Seguir estas diretrizes garante consistência, qualidade e facilita a colaboração entre contribuidores e mantenedores.
 
@@ -34,10 +35,10 @@ Seguir estas diretrizes garante consistência, qualidade e facilita a colaboraç
    ```
    git pull origin develop --rebase
    ```
-4. Instale as dependências do projeto com o gerenciador de pacotes apropriado à linguagem utilizada:
-    - Node.js: `npm install`
-    - Go: `go mod tidy`
-    - Python: `pip install -r requirements.txt`
+4. Instale as dependências antes de começar:
+   ```
+   npm install
+   ```
 5. Siga o [Guia de Commits](/contributors/COMMIT_GUIDELINES.md).
 6. Garanta que o código esteja:
    - Validado pelo lint.
