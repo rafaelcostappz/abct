@@ -6,6 +6,14 @@
 
 ---
 
+## Issue Relacionada
+
+Closes #[SUBISTITUA ESSE TEXTO PELO NUMERO DA ISSUE]
+
+(Substitua pelo número da Issue, ex: `Closes #42`)
+
+---
+
 ## Descrição
 
 Explique de forma objetiva o que este Pull Request entrega.  
@@ -13,23 +21,15 @@ Inclua contexto, motivo da alteração e qualquer informação relevante.
 
 ---
 
-## Checklist
+## Garanta que:
 
-- [ ] A Issue correspondente foi aberta e está vinculada.
-- [ ] O título do PR segue o padrão: `tipo: descrição breve` (ex: `feat: adiciona suporte a webhook`).
-- [ ] O código está em conformidade com o [Padrão de Código](/contributors/CODING_STANDARDS.md).
-- [ ] Os commits seguem o [Guia de Commits](/contributors/COMMIT_GUIDELINES.md).
-- [ ] Testes foram adicionados ou atualizados conforme o [Guia de Testes](/contributors/TESTING_GUIDELINES.md).
-- [ ] O pipeline de CI/CD foi executado e está passando.
-- [ ] Documentação foi atualizada, se aplicável.
-
----
-
-## Issue Relacionada
-
-Closes #
-
-(Substitua pelo número da Issue, ex: `Closes #42`)
+-  A Issue correspondente foi aberta e está vinculada.
+-  O título do PR segue o padrão: `tipo: descrição breve` (ex: `feat: adiciona suporte a webhook`).
+-  O código está em conformidade com o [Padrão de Código](/contributors/CODING_STANDARDS.md).
+-  Os commits seguem o [Guia de Commits](/contributors/COMMIT_GUIDELINES.md).
+-  Testes foram adicionados ou atualizados conforme o [Guia de Testes](/contributors/TESTING_GUIDELINES.md).
+-  O pipeline de CI/CD foi executado e está passando.
+-  Documentação foi atualizada, se aplicável.
 
 ---
 
