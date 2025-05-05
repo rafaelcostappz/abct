@@ -42,7 +42,7 @@ Consulte também o nosso [Fluxo de Desenvolvimento](/contributors/DEVELOPMENT_WO
    - [Guia de Testes](/contributors/TESTING_GUIDELINES.md)
 5. Antes de submeter o PR, siga as instruções do [Fluxo de Desenvolvimento](/contributors/DEVELOPMENT_WORKFLOW.md), incluindo:
    - Manter a branch atualizada com `develop` ou `main`
-   - Executar `npm install` antes de qualquer desenvolvimento
+   - Executar `npm install` (ou equivalente) antes de qualquer desenvolvimento
 6. Ao finalizar, abra o Pull Request utilizando o [Template de PR](/contributors/PULL_REQUEST_TEMPLATE.md) e seguindo o [Guia de Pull Request](/contributors/DEVELOPMENT_WORKFLOW.md), sempre referenciando a Issue correspondente.
 
 ---
@@ -65,7 +65,7 @@ Consulte também o nosso [Fluxo de Desenvolvimento](/contributors/DEVELOPMENT_WO
 - Utilizar mensagens de commit vagas como "ajustes", "update", "alterações".
 - Ignorar falhas no pipeline de CI/CD.
 - Desconsiderar padrões estabelecidos de código, testes e documentação.
--  **Nunca expor tokens ou credenciais em commits!**
+- **Nunca expor tokens ou credenciais em commits!**
 
 ---
 

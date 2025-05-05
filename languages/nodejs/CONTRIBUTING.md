@@ -1,4 +1,3 @@
-
 # Como Contribuir - AbacatePay Node.js SDK
 
 Obrigado por querer contribuir com o **abacatepay-nodejs-sdk**!  
