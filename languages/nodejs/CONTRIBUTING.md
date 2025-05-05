@@ -65,3 +65,4 @@ Consulte os [Padrões Globais de Código](https://github.com/AbacatePay/sdk-stan
 - Branch `main` é protegida.
 - Commits diretos não são permitidos.
 - PRs exigem aprovação e CI verde.
+
