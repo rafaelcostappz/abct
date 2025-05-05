@@ -3,7 +3,7 @@
 Obrigado por querer contribuir com o **abacatepay-nodejs-sdk**!  
 Este projeto segue as diretrizes centralizadas da AbacatePay para garantir qualidade, segurança e consistência em todos os nossos SDKs open source.
 
-> Consulte o [Guia de Contribuição Central](https://github.com/AbacatePay/sdk-standards/blob/main/contributors/CONTRIBUTING.md) para regras gerais.
+> Consulte o [Guia de Contribuição Central](/contributors/CONTRIBUTING.md) para regras gerais.
 
 ---
 
@@ -27,7 +27,7 @@ Este projeto segue as diretrizes centralizadas da AbacatePay para garantir quali
   npx biome format . --write
   ```
 
-Consulte os [Padrões Globais de Código](https://github.com/AbacatePay/sdk-standards/blob/main/contributors/CODING_STANDARDS.md).
+Consulte os [Padrões Globais de Código](/contributors/CODING_STANDARDS.md).
 
 ---
 
@@ -39,14 +39,14 @@ Consulte os [Padrões Globais de Código](https://github.com/AbacatePay/sdk-stan
    npx changeset
    ```
 4. Garanta que o CI esteja passando.
-5. Siga o [Guia de Commits](https://github.com/AbacatePay/sdk-standards/blob/main/contributors/COMMIT_GUIDELINES.md).
+5. Siga o [Guia de Commits](/contributors/COMMIT_GUIDELINES.md).
 
----
+--
 
 ### Versionamento e Releases
 - O versionamento é automatizado via **Changesets**.
 - Após o merge na `main`, o processo de criação de tag e GitHub Release é automático.
-- Consulte o [Fluxo de Release](https://github.com/AbacatePay/sdk-standards/blob/main/maintainers/RELEASE_PROCESS.md).
+- Consulte o [Fluxo de Release](/maintainers/RELEASE_PROCESS.md).
 
 ---
 
@@ -57,7 +57,7 @@ Consulte os [Padrões Globais de Código](https://github.com/AbacatePay/sdk-stan
   npm audit
   ```
 
-- Siga nossa [Política de Segurança](https://github.com/AbacatePay/sdk-standards/blob/main/policies/SECURITY_POLICY.md).
+- Siga nossa [Política de Segurança](/policies/SECURITY_POLICY.md).
 
 ---
 
