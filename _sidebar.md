@@ -28,6 +28,10 @@
     * [Roadmap de Novo Repositório](maintainers/setup-guides/NEW_REPOSITORY_ROADMAP.md)
     * [Checklist de Configuração](maintainers/setup-guides/CONFIGURATION_CHECKLIST.md)
     * [Guia de Automação](maintainers/setup-guides/AUTOMATION_GUIDE.md)
+  * **CI/CD**
+    * [Visão Geral](maintainers/ci/CI_OVERVIEW.md)
+    * [Quality Gates](maintainers/ci/QUALITY_GATES.md)
+    * [Templates de Workflows](maintainers/ci/GITHUB_WORKFLOW_TEMPLATES/)
 
 * **Políticas**
   * [Política de Segurança](policies/SECURITY_POLICY.md)
