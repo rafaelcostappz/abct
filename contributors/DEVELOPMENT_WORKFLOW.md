@@ -1,4 +1,3 @@
-
 # Fluxo de Desenvolvimento - AbacatePay SDKs
 
 > **Este documento define o fluxo oficial de desenvolvimento para todos os SDKs open source da AbacatePay.**
@@ -30,12 +29,20 @@ Seguir estas diretrizes garante consistência, qualidade e facilita a colaboraç
 
 1. Abra uma Issue antes de qualquer desenvolvimento.
 2. Crie a branch adequada a partir de `develop`.
-3. Siga o [Guia de Commits](/contributors/COMMIT_GUIDELINES.md).
-4. Garanta que o código esteja:
+3. Certifique-se de que sua branch esteja **atualizada com a branch principal (`main` ou `develop`)**:
+   ```
+   git pull origin develop --rebase
+   ```
+4. Instale as dependências antes de começar:
+   ```
+   npm install
+   ```
+5. Siga o [Guia de Commits](/contributors/COMMIT_GUIDELINES.md).
+6. Garanta que o código esteja:
    - Validado pelo lint.
    - Com testes atualizados e passando.
    - Em conformidade com os [Padrões de Código](/contributors/CODING_STANDARDS.md).
-5. Abra o Pull Request para a branch `develop` utilizando o [Template de PR](/contributors/PULL_REQUEST_TEMPLATE.md).
+7. Abra o Pull Request para a branch `develop` utilizando o [Template de PR](/contributors/PULL_REQUEST_TEMPLATE.md).
 
 > Pull Requests diretos para `main` não são permitidos.
 

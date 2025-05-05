@@ -1,4 +1,3 @@
-
 # Guia Geral de Contribuição
 
 Obrigado por querer contribuir com os SDKs **open source** da AbacatePay!  
@@ -41,7 +40,10 @@ Consulte também o nosso [Fluxo de Desenvolvimento](/contributors/DEVELOPMENT_WO
    - [Padrões de Código](/contributors/CODING_STANDARDS.md)
    - [Diretrizes de Documentação](/templates/DOCUMENTATION_STRUCTURE.md)
    - [Guia de Testes](/contributors/TESTING_GUIDELINES.md)
-5. Ao finalizar, abra o Pull Request utilizando o [Template de PR](/contributors/PULL_REQUEST_TEMPLATE.md) e seguindo o [Guia de Pull Request](/contributors/DEVELOPMENT_WORKFLOW.md), sempre referenciando a Issue correspondente.
+5. Antes de submeter o PR, siga as instruções do [Fluxo de Desenvolvimento](/contributors/DEVELOPMENT_WORKFLOW.md), incluindo:
+   - Manter a branch atualizada com `develop` ou `main`
+   - Executar `npm install` antes de qualquer desenvolvimento
+6. Ao finalizar, abra o Pull Request utilizando o [Template de PR](/contributors/PULL_REQUEST_TEMPLATE.md) e seguindo o [Guia de Pull Request](/contributors/DEVELOPMENT_WORKFLOW.md), sempre referenciando a Issue correspondente.
 
 ---
 
