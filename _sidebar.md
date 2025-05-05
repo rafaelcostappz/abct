@@ -42,11 +42,6 @@
   * [Diretrizes da Comunidade](policies/COMMUNITY_GUIDELINES.md)
   * [Padrões de API](policies/API_STANDARDS.md)
 
-* **CI/CD**
-  * [Visão Geral](ci/CI_OVERVIEW.md)
-  * [Quality Gates](ci/QUALITY_GATES.md)
-  * [Templates de Workflows](ci/GITHUB_WORKFLOW_TEMPLATES/)
-
 * **Templates**
   * [Template de README](templates/SDK_README_TEMPLATE.md)
   * [Template de Quickstart](templates/SDK_QUICKSTART_TEMPLATE.md)
