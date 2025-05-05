@@ -51,21 +51,6 @@ Todos devem seguir a [Política de Gerenciamento de Tokens](/policies/TOKEN_MANA
 
 ---
 
-## Protocolo de Rollback
-
-Em caso de incidente grave ou liberação incorreta de versão, siga o protocolo de rollback:
-
-1. **Interrompa o pipeline de publicação imediatamente**, se estiver em execução.
-2. **Remova ou desative a release** no registro (npm, PyPI, etc.), quando possível.
-3. **Crie uma nova tag de correção** (`vX.Y.Z+rollback`) para registrar a reversão.
-4. **Abra uma Issue interna de segurança** documentando o ocorrido e ações tomadas.
-5. **Atualize o changelog e comunique a comunidade**, caso o release tenha sido público.
-6. **Reforce a revisão de PRs e processos de CI**, se a causa for humana ou automatizada.
-
-Este protocolo segue boas práticas comuns em projetos open source para manter a estabilidade e confiança no ecossistema.
-
----
-
 ## Agradecimento
 
 Agradecemos sua contribuição para tornar o ecossistema da AbacatePay mais seguro.  

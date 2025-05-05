@@ -50,11 +50,18 @@ O processo de release pode variar entre SDKs. Verifique os arquivos de configura
 
 ---
 
-## Segurança e Rollback
+## Protocolo de Rollback
 
-- Releases devem ser executadas apenas por mantenedores autorizados.
-- Em caso de erro crítico, siga o protocolo de rollback descrito no CI e na [Política de Segurança](/policies/SECURITY_POLICY.md).
-- Nunca publique diretamente fora do fluxo de `develop → main`.
+Em caso de incidente grave ou liberação incorreta de versão, siga o protocolo de rollback:
+
+1. **Interrompa o pipeline de publicação imediatamente**, se estiver em execução.
+2. **Remova ou desative a release** no registro (npm, PyPI, etc.), quando possível.
+3. **Crie uma nova tag de correção** (`vX.Y.Z+rollback`) para registrar a reversão.
+4. **Abra uma Issue interna de segurança** documentando o ocorrido e ações tomadas.
+5. **Atualize o changelog e comunique a comunidade**, caso o release tenha sido público.
+6. **Reforce a revisão de PRs e processos de CI**, se a causa for humana ou automatizada.
+
+Este protocolo segue boas práticas comuns em projetos open source para manter a estabilidade e confiança no ecossistema.
 
 ---
 
