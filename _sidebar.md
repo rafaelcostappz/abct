@@ -41,7 +41,6 @@
   * [Mudanças Quebrando Compatibilidade](policies/BREAKING_CHANGES_POLICY.md)
   * [Diretrizes da Comunidade](policies/COMMUNITY_GUIDELINES.md)
   * [Padrões de API](policies/API_STANDARDS.md)
-
 * **Templates**
   * [Template de README](templates/SDK_README_TEMPLATE.md)
   * [Template de Quickstart](templates/SDK_QUICKSTART_TEMPLATE.md)
